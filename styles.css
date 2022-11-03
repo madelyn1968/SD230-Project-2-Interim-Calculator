@@ -1,0 +1,105 @@
+:root {
+    font-family: monospace;
+    background: linear-gradient(360deg, #0E0E0E 0%, #303030 53.52%);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #3C2482;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#calc {
+    border-radius: 20px;
+    border: 1px solid #BABABA;
+    width: 400px;
+    height: 620px;
+    margin: 40px;
+    background: linear-gradient(180deg, #565454 0%, #000000 100%);
+}
+
+#tape {
+    background: #1E1E1E;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 576px;
+    height: 652px;
+}
+
+#display {
+    background: #C699FF;
+    border-radius: 20px 20px 0px 0px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: center;
+    color: #3C2482;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: nowrap;
+}
+
+.calc-button {
+    height: 100px;
+    background: none;
+    color: #C699FF;
+    border: 1px solid #BABABA;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+    flex-basis: 25%;
+}
+
+.calc-button:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.double-width {
+    flex-basis: 50%;
+}
+
+.left-bottom-corner {
+    border-radius: 0px 0px 0px 20px;
+}
+
+.right-bottom-corner {
+    border-radius: 0px 0px 20px 0px;
+}
+
